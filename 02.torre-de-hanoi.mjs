@@ -18,62 +18,63 @@ torreB.push(4);
 
 exibir("ANTES");
 
+//disco 4 da torre B indo para torre C
 torreC.push(torreB.pop()); 
 exibir();
 
-// Passo 2: B -> A
+// disco 3 da torre B indo para torre A
 torreA.push(torreB.pop()); 
 exibir();
 
-// Passo 3: C -> A
+// disco 4 da torre C indo para torre A
 torreA.push(torreC.pop()); 
 exibir();
 
-// Passo 4: B -> C
+// disco 2 da torre B indo para torre C
 torreC.push(torreB.pop()); 
 exibir();
 
-// Passo 5: A -> B
+// disco 4 da torre A indo para torre B
 torreB.push(torreA.pop()); 
 exibir();
 
-// Passo 6: A -> C
+// disco 3 da torre A indo para torre C
 torreC.push(torreA.pop()); 
 exibir();
 
-// Passo 7: B -> C
+// disco 4 da torre B indo para torre C
 torreC.push(torreB.pop()); 
 exibir();
 
-// Passo 8: B -> A (O disco da base de B vai para a base de A)
+// disco 1 da torre B indo para torre A
 torreA.push(torreB.pop()); 
 exibir();
 
-// Passo 9: C -> A
+// disco 4 da torre C indo para torre A
 torreA.push(torreC.pop()); 
 exibir();
 
-// Passo 10: C -> B
+// disco 3 da torre C indo para torre B
 torreB.push(torreC.pop()); 
 exibir();
 
-// Passo 11: A -> B
+// disco 4 da torre A indo para torre B
 torreB.push(torreA.pop()); 
 exibir();
 
-// Passo 12: C -> A
+// disco 2 da torre C indo para torre A
 torreA.push(torreC.pop()); 
 exibir();
 
-// Passo 13: B -> C
+// disco 4 da torre B indo para torre C
 torreC.push(torreB.pop()); 
 exibir();
 
-// Passo 14: B -> A
+// disco 3 da torre B indo para torre A
 torreA.push(torreB.pop()); 
 exibir();
 
-// Passo 15: C -> A (Finaliza a torre)
+// disco 4 da torre C indo para torre A
 torreA.push(torreC.pop()); 
 
 console.log("\n------- DEPOIS -------");
